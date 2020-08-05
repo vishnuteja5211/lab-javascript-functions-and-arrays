@@ -63,9 +63,7 @@ const prices = [200, 120, 100, 108, 135, 162, 25, 170, 80, 110];
 
 **The goal: Learn how to refactor your code.** :
 
-In progression 3, you created a function that returns the sum of an array of prices. But what if we wanted to know how much is the sum of the length of all of the words in an array? What if we wanted to add _boolean_ values to the mix? We wouldn't be able to use the same function as above, or better saying, we would have to _tweak_ it a little bit so that it can be reused no matter what is in the array that is passed as argument when function `sumOfArray()` is called.
-
-Here we're applying a concept we call **polymorphism**, that is, dealing with a functions' input independent of the types of data passed.
+In progression 3, you created a function that returns the sum of an array of prices. But what if we wanted to know how much is the sum of the length of all of the words in an array? What if we wanted to add _boolean_ values to the mix? We wouldn't be able to use the same function as above, or better sayingf data passed.
 
 Let's create a new function `add()` that calculates the sum for array filled with (_almost_) any type of data. Note that strings should have their length added to the total, and boolean values should be coerced into their corresponding numeric values. Check the tests for more details.
 
